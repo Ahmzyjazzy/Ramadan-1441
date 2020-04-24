@@ -21,7 +21,7 @@ export default {
 <style scoped lang="scss">
 .quote-container {
     display: grid;
-    grid-template-rows: 20% 70% 10%;
+    grid-template-rows: 15% 80% 5%;
     height: 90vh;
     width: 90vw;
     transform: translate(-50%, -50%);
@@ -33,6 +33,11 @@ export default {
     h1, 
     p {
       text-shadow: 0 2px 4px rgba(13,0,77,.08), 0 3px 6px rgba(13,0,77,.08), 0 8px 16px rgba(13,0,77,.08);
+    }
+
+    .quote {
+      font-size: 25px;
+      line-height: 1.5em;
     }
 
     .author {
