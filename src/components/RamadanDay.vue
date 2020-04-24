@@ -2,7 +2,7 @@
   <div class="quote-container">
     <h1 class="header">Ramadan {{day}}</h1>
     <p class="quote">{{quote}}</p>
-    <p class="autor">{{author}}</p>
+    <p class="author">{{author}}</p>
   </div>
 </template>
 
