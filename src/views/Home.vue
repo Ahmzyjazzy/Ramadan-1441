@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     currentData(){      
-      return Ramadan[0];
+      return Ramadan[1];
     }
   },
 }
